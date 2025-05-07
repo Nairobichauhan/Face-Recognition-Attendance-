@@ -1,8 +1,32 @@
-<h1>Automated Attendance System using Face Recognition</h1>
 
+# 🎯 Face Recognition Attendance System
 A Python-based face recognition attendance system that automates attendance management by detecting and recognizing faces.
-Key Features:
-Implemented a student registration system with unique ID assignment.
-Integrated real-time face detection and recognition using OpenCV to automate attendance marking.
-Maintained daily attendance records in Excel format with timestamped entries (date, time, and student name).
-Ensured high accuracy and performance with distinct face identification and duplicate prevention.
+A complete Flask-based face recognition attendance system that:
+- Registers users with face images
+- Trains a KNN model
+- Detects faces in real-time
+- Marks attendance in a date-stamped CSV file
+
+---
+
+## 💡 Features
+
+- 📝 Student Registration with name and ID
+- 📷 Face Detection and Face Recognition using OpenCV
+- 📚 KNN Model Training using Scikit-learn
+- 🧠 Model-based Identification and Real-Time Face Matching
+- 🗓️ Attendance Logging (with time and date)
+- 🗃️ CSV File for each day’s attendance
+
+---
+
+## ⚙️ Technologies
+
+- Python
+- Flask
+- OpenCV
+- scikit-learn
+- Pandas, NumPy
+- HTML (Jinja2 Templates)
+
+---
